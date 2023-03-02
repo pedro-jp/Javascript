@@ -19,3 +19,8 @@ delete valores [0] //Deleta o dado selecionado
 console.log(valores)
 
 console.log(typeof valores)
+
+const notas = [ 6.7, 4.7, 2.3, 9.2]
+for(i = 0; i < notas.length; i++){
+    console.log('nota = ' + notas[i])
+}
