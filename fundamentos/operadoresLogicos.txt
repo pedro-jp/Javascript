@@ -1,0 +1,15 @@
+v e v -> v //Televisão de 50"
+v e f -> f //e
+f e ? -> f
+
+v ou ? -> v //ou  
+f ou v -> v//sorvete
+f ou f -> f
+
+v xor v -> f //ou exclusivo
+v xor f -> v
+f xor v -> v //Televisão de 32"
+f xor f -> f
+
+!v -> f
+!f -> v
